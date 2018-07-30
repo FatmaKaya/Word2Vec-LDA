@@ -43,7 +43,7 @@ Kullanacağımız veri setinde hızlı bir keşif yaptığımız aşama;
   
   ![figure2](https://github.com/FatmaKaya/Word2Vec-LDA/blob/master/Ozellik%20Denetimi/figure2.PNG)
   ![figure3](https://github.com/FatmaKaya/Word2Vec-LDA/blob/master/Ozellik%20Denetimi/figure3.PNG)
-* yorumlarda kullanıla max, min, ortalama kelime sayıları ve 250 den fazla kelime içerenlerin yorumlar
+* Yorumlarda kullanıla max, min, ortalama kelime sayıları ve 250 den fazla kelime içerenlerin yorumlar
 
   ![train_kelime(8)](https://github.com/FatmaKaya/Word2Vec-LDA/blob/master/Ozellik%20Denetimi/train_kelime(8).PNG)
   
