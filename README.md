@@ -1,9 +1,9 @@
 ﻿## Word2Vec ve LDA
 
 
-Humır veri seti ile Word2Vec ve LDA kullanarak metin analizi yapılan bir örnek 
+Humır veri seti ile Word2Vec ve LDA kullanarak metin analizi(pozitif-negatif) yapılan bir örnek 
 
-Genel olarak 4 ana adımla ve ilerleyeceğiz; 
+Genel olarak 4 ana adımla ve ilerleyeceğiz(adımları yaptıkça ekleyeceğim); 
 * Özellik Denetimi
 * Özellik Dluşturma 
 * Model Eğitimi
