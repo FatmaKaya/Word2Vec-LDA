@@ -3,7 +3,7 @@
 
 Humır veri seti ile Word2Vec ve LDA kullanarak metin analizi(pozitif-negatif) yapılan bir örnek 
 
-Genel olarak 4 ana adımla ve ilerleyeceğiz(adımları yaptıkça ekleyeceğim); 
+Genel olarak 4 ana adımla ilerleyeceğiz(adımları yaptıkça ekleyeceğim); 
 * Özellik Denetimi
 * Özellik Dluşturma 
 * Model Eğitimi
