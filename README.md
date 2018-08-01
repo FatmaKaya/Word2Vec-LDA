@@ -36,7 +36,7 @@ Kullanacağımız veri setinde hızlı bir keşif yaptığımız aşama;
   ![train_info(6)](https://github.com/FatmaKaya/Word2Vec-LDA/blob/master/Ozellik%20Denetimi/train_info(6).PNG)
   
   ![train_info2(7)](https://github.com/FatmaKaya/Word2Vec-LDA/blob/master/Ozellik%20Denetimi/train_info2(7).PNG)
-* Pozitif ve negatif yorumların sayısının görselleştirilmesi
+* Pozitif ve negatif yorumların sayısının görselleştirilmesi 
   
   ![figure1](https://github.com/FatmaKaya/Word2Vec-LDA/blob/master/Ozellik%20Denetimi/figure1.PNG)
 * Yorumlarda kullanılan kelimelerin sayılayılarının dağılımlarının görselleştirilmesi
