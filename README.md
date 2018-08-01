@@ -5,12 +5,12 @@ Humır veri seti ile Word2Vec ve LDA kullanarak metin analizi(pozitif-negatif) y
 
 Genel olarak 4 ana adımla ilerleyeceğiz(adımları yaptıkça ekleyeceğim); 
 * Özellik Denetimi
-* Özellik Dluşturma 
+* Özellik Oluşturma 
 * Model Eğitimi
 * Model Seçimi
 
 
-###### 1) Özellik denetimi
+###### 1) Özellik Denetimi
 Kullanacağımız veri setinde hızlı bir keşif yaptığımız aşama;
 * Datasetin okunması 
 * Sütun isimlerinin verilmesi
@@ -50,6 +50,27 @@ Kullanacağımız veri setinde hızlı bir keşif yaptığımız aşama;
 * 1, 2, 3 kelimeye sahip yorumlardan bazılarına bakılması 
 
   ![train_kelime(9)](https://github.com/FatmaKaya/Word2Vec-LDA/blob/master/Ozellik%20Denetimi/train_kelime(9).PNG)
+
+
+###### 2) Özellik Oluşturma
+Doğal dil işlemede olağan yaklaşım, metni ilk olarak temizlemektir. 
+Modelimizin benzerlikleri, iki farklı kelime benzer şeyler ifade ettiği zaman anladığından emin olmalıyız.
+Ham metni bir modele girip her şeyi anlamasını bekleyemeyiz.
+Bunun için biraz temizlik yapmamız gerekir.
+Genel olarak yapılanlar:
+* Metni tokinize etmek (cümle cümle sonra kelime kelime ayırıyoruz, boşlukları temizliyoruz, istenmeyen karakterleri kaldırıyoruz)
+* Kelime sıklıklarının görselleştirilmesi
+
+  ![figure1](https://github.com/FatmaKaya/Word2Vec-LDA/blob/master/Ozellik%20Olusturma/figure1.PNG)
+* Stop word leri kaldırıyoruz (türkçedeen çok kullanılan yan kelimeler)
+* Stemming(genel olarak aynı ifadeye denk gelen kelimelerin birleştirilmesi)
+* Sözcükleri vektörize etmek
+* Tüm işlemler bittikten sonra tekrar kelime sıklıklarının görselleştirilmesi
+
+  ![figure2](https://github.com/FatmaKaya/Word2Vec-LDA/blob/master/Ozellik%20Olusturma/figure2.PNG)
+* Negatif ve Pozitif yorumlarda en çok kullanılan kelimelerin görselleştirilmesi
+  
+  ![figure3](https://github.com/FatmaKaya/Word2Vec-LDA/blob/master/Ozellik%20Olusturma/figure3.PNG)
 
 ###### Yararlanılan Kaynaklar 
 * [Classification combining LDA and Word2Vec
